@@ -1,0 +1,328 @@
+.positionCanvas { 
+}
+
+.myCanvas { 
+	position:relative; 
+	left: 50%; 
+	margin-left: -200px; 
+}
+
+.layer1 { 
+	z-index: 1; 
+	position:absolute; 
+	left: 0px; 
+	top: 0px; 
+	border: 5px solid red; 
+	background-color:white;
+}
+
+.layer2 { 
+	z-index: 2; 
+	position:absolute; 
+	left: 0px; 
+	top: 0px; 
+	border: 5px solid red; 
+}
+
+.layer3 {
+	z-index: 3; 
+	position:absolute; 
+	left: 0px; 
+	top: 0px; 
+	border: 5px solid red; 
+}
+
+.hidden { 
+	display:none; 
+}
+
+.positionButtons { 
+	position:absolute; 
+	left: 25%; 
+	margin-left: -200px;
+	margin-top: 50px;
+}
+
+.button { 
+	background-color: green; 
+	color: white; 
+	padding: 16px 32px; 
+	text-align:center; 
+	text-decoration:none; 
+	display:inline-block; 
+	font-size:16px; 
+	margin:4px 2px; 
+	transition-duration:0.4s; 
+	cursor:pointer; 
+	width:100px;
+}
+
+.green { 
+	background-color:green; 
+	color:white; 
+	border: 2px solid green; 
+}
+
+.green:hover{
+	background-color:white;
+	color:green;
+}
+
+.blue{ 
+	background-color:blue; 
+	color:white; 
+	border: 2px solid blue; 
+}
+
+.blue:hover{
+	background-color:white;
+	color:blue;
+}
+
+.red{ 
+	background-color:red; 
+	color:white; 
+	border: 2px solid red; 
+}
+
+.red:hover{
+	background-color:white;
+	color:red;
+}
+
+.yellow{ 
+	background-color:yellow; 
+	color:white; 
+	border: 2px solid yellow; 
+}
+
+.yellow:hover{
+	background-color:white;
+	color:yellow;
+}
+
+.orange{ 
+	background-color:orange; 
+	color:white; 
+	border: 2px solid orange; 
+}
+
+.orange:hover{
+	background-color:white;
+	color:orange;
+}
+
+.purple{ 
+	background-color:purple; 
+	color:white; 
+	border: 2px solid purple; 
+}
+
+.purple:hover{
+	background-color:white;
+	color:purple;
+}
+
+.grey { 
+	background-color:grey; 
+	color:white; 
+	border: 2px solid grey; 
+}
+
+.grey:hover{
+	background-color:white;
+	color:grey;
+}
+
+.black{ 
+	background-color:black; 
+	color:white; 
+	border: 2px solid black; 
+}
+
+.black:hover{
+	background-color:white;
+	color:black;
+}
+
+
+
+.images { 
+	margin-top: -25px;
+	width:100%; 
+	margin-bottom: 25px;
+}
+
+.person { 
+	height:200px;
+	width:20%; 
+	object-fit:cover; 
+}
+
+.person:hover { 
+	opacity:50%; 
+}
+
+.positionForm { 
+	float: right;
+}
+
+.enterText { 
+	position: absolute;
+	right: 25%; 
+	margin-right: -250px;
+	margin-top: 100px;
+}
+
+.moveText { 
+	position: absolute;
+	right: 25%; 
+	margin-top: 200px;
+}
+
+.arrow { 
+	border-radius:8px;
+	font-size:20px;
+	color: #DC143C;
+}
+
+.right { 
+	position: absolute; 
+	margin-left: -80px;
+}
+
+.left { 
+	position:absolute;
+	margin-left: -2px;
+}
+
+.down { 
+	position:absolute;
+	margin-top: -30px;
+	margin-left: -40px;
+}
+
+.up { 
+	position:absolute; 
+	margin-top:35px;
+	margin-left: -40px;
+}
+
+.up:hover { 
+	background-color: #DAA520; 
+}
+
+.down:hover { 
+	background-color: #DAA520; 
+}
+
+.left:hover { 
+	background-color: #DAA520; 
+}
+
+.right:hover { 
+	background-color: #DAA520; 
+}
+
+.clearButtons { 
+	position:absolute; 
+	right: 18%; 
+	margin-top: 390px; 
+}
+
+.clearImage { 
+	position: absolute; 
+	padding: 10px; 
+	width: 100px;
+	font-size:12px; 
+	border-radius: 50%; 
+	background-color: #F5FFFA;
+	color: #8A2BE2; 
+	font-weight:bold; 
+}
+
+.clearText { 
+	position: absolute; 
+	width: 100px;
+	padding: 10px; 
+	font-size:12px; 
+	border-radius: 50%; 
+	background-color: #F5FFFA;
+	color: #8A2BE2; 
+	font-weight:bold; 
+	margin-top: 45px;
+}
+
+.clearDraw { 
+	position: absolute; 
+	width: 120px;
+	padding: 10px; 
+	font-size:12px; 
+	border-radius: 50%; 
+	background-color: #F5FFFA;
+	color: #8A2BE2; 
+	font-weight:bold; 
+	margin-top: 90px;
+	margin-left: -10px;
+}
+
+.clearDraw:hover { 
+	background-color: #8A2BE2;
+	color: #F5FFFA;
+}
+
+.clearImage:hover { 
+	background-color: #8A2BE2;
+	color: #F5FFFA;
+}
+
+.clearText:hover { 
+	background-color: #8A2BE2;
+	color: #F5FFFA;
+}
+
+.submitButton:hover{ 
+	color: #FF1493; 
+}
+
+.statTable { 
+	position:absolute;
+	margin-top: 600px;
+	left:50%;
+}
+
+.leaderBoardTitle { 
+	position:absolute;
+	color: #F5F5F5; 
+	font-weight:bold;
+	text-align:center; 
+	background-color: #00FF00;
+	border: 10px #F5F5F5; 
+	border-style: groove; 
+	width: 200px;
+	margin-left: -100px;
+}
+
+.Table { 
+	position:absolute;
+	border-collapse:collapse; 
+	margin-top: 125px;
+	margin-left: -175px;
+}
+
+.Table td, th{ 
+	border: 1px solid #ddd; 
+	padding: 8px; 
+}
+
+.Table tr:nth-child(even) {background-color:#AFEEEE;}
+.Table tr:nth-child(odd) {background-color:#F5FFFA;}
+
+.Table th { 
+	padding-top:12px; 
+	padding-bottom: 12px; 
+	text-align: left; 
+	background-color: #40E0D0; 
+	color: black; 
+}
+
